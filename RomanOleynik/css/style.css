@@ -1,0 +1,115 @@
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+img, ins, kbd, q, s, samp,
+small, strike, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+line-height: 1;
+}
+
+ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/*----------------Go!----------------*/
+
+.wrapper {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio {
+    height: 470px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3); 
+}
+
+.bgTop {
+    background: url(../img/bg-top.jpg) no-repeat center top / cover;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profileInfo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.followers {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial';
+}
+span.number {
+    font-size: 20px;
+    padding: 5px;
+    color: gray;
+}
+.followers>img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    
+}
+.info {
+    width: 220px;
+    height: 340px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Arial';
+    background: rgb(240, 240, 240);
+    border-left: 1px solid lightgray;
+    border-bottom-right-radius: 10px;
+}
+h2 {
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.data {
+    padding-top: 20px;
+}
+.data>a {
+    text-decoration: none;
+    color: #000;
+}
+
+
