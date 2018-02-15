@@ -1,54 +1,15 @@
 
-html, body, div, span,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-img, ins, kbd, q, s, samp,
-small, strike, strong,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
-font-size: 100%;
-vertical-align: baseline;
-background: transparent;
-}
-body {
-line-height: 1;
-}
-
-ol, ul {
-list-style: none;
-}
-
-blockquote, q {
-quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-content: '';
-content: none;
-}
-
-table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-
-/*----------------Go!----------------*/
-
-.wrapper {
+.background {
     background: url(../img/bg.jpg) no-repeat center top / cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.portfolio {
+.background__portfolio-card {
     height: 470px;
     width: 400px;
     background: white;
@@ -56,38 +17,39 @@ border-spacing: 0;
     box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3); 
 }
 
-.bgTop {
+.background__portfolio-card_background-top {
     background: url(../img/bg-top.jpg) no-repeat center top / cover;
     height: 110px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.profileInfo {
+.background__portfolio-card__info {
     display: flex;
     justify-content: space-between;
-    
+    position: relative;
 }
-.followers {
+.background__portfolio-card__followers-info {
     width: 180px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: 'Arial';
 }
-span.number {
+.background__portfolio-card__followers-info__number {
     font-size: 20px;
     padding: 5px;
     color: gray;
 }
-.followers>img {
+.background__portfolio-card__profile-photo {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     top: -50px;
-    
+    left: 50px;
 }
-.info {
+.background__portfolio-card__profile-info {
     width: 220px;
     height: 340px;
     padding: 10px;
@@ -99,17 +61,15 @@ span.number {
     border-left: 1px solid lightgray;
     border-bottom-right-radius: 10px;
 }
-h2 {
+.background__portfolio-card__profile-info__name {
     font-size: 23px;
     margin-top: 20px;
+    margin-bottom: 0;
     font-weight: 100;
 }
-.data {
-    padding-top: 20px;
+.background__portfolio-card_profile-info__place {
+    margin-top: 0;
 }
-.data>a {
-    text-decoration: none;
-    color: #000;
-}
+
 
 
