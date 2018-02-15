@@ -1,0 +1,28 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.parent [title=Children] {
+    background-color: white;
+}
+
+div.children {
+    width: 200px;  
+    height: 200px;
+    background-color: green;
+}
+
+.text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease-out;
+}
+
+.text_open {
+    max-height: 500px;
+}

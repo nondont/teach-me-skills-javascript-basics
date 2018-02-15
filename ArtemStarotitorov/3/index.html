@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+      <title>Title</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="parent">
+        <div class="children" data-name="value" title="Children"></div>
+      </div>
+
+      <a href="#" class="instructions">Read more...</a>
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in cursus lorem. Suspendisse auctor bibendum massa vel semper. Ut a malesuada velit. Praesent lacinia ullamcorper turpis, ut auctor lacus imperdiet ac. Sed cursus augue turpis, eget posuere risus mattis convallis. In nec dui porttitor, volutpat libero id, feugiat magna. Aenean tellus erat, luctus eget eros a, sagittis maximus est. Phasellus quis enim quis velit tincidunt ullamcorper.
+
+Praesent sed congue magna. Etiam bibendum odio sed pellentesque volutpat. Mauris varius fermentum massa, sed rutrum tellus faucibus in. Ut eget sem felis. Nunc eget vulputate mauris. Pellentesque posuere vulputate enim, vel pretium tortor fermentum a. Ut fermentum dictum nunc id commodo.
+      </div>
+      <script>
+        window.onload = function() {
+          var button = document.querySelector('.instructions');
+          var text = document.querySelector('.text');
+
+          text.style.display = 'none';
+
+          button.addEventListener('click', function() {
+            text.classList.toggle('text_open');
+          });
+        }
+      </script>
+    </body>
+</html>
