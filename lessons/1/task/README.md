@@ -1,6 +1,6 @@
 ## Homework
 
-You need to create a card component, portfolio, the example is available [here](ArtemStarotitorov/1/task/task.PNG).
+You need to create a card component, portfolio, the example is available [here](./task.PNG).
 You can find icons [here](https://fontawesome.com/), you can use any background images.
 
 1. Fork [this repository](https://github.com/nondont/teach-me-skills-javascript-basics) on github.
