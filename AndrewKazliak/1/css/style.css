@@ -1,61 +1,110 @@
 body {
-  background-image: url(/AndrewKazliak/1/img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+    background: url(/1/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.personal-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
 .portfolio-card {
-  width: 560px;
-  height: 500px;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  position: fixed;
-  top: 188px;
-  left: 33%;
-  box-shadow: 3px 3px 10px 0px #202020;
-  display: flex;
-  justify-content: center;
-  
+    background: #d3fcbe;
+    border: 1px solid #797575;
+    height: 460px;
+    width: 420px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(33, 217, 18, 0.4);
 }
-.img-fond-top {
-  background-color: aqua;
-  width: 100%;
-  height: 25%;
-  border: 0px solid #d90a0a;
+.personality {
+    border: 2px solid #fefffe;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    display: block;
+    border: none;
+    margin: 50px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
-.my-photo {
-  display: flex;
-  position: absolute;
+.personality:hover {
+    box-shadow: 0 0 20px #269337;
+    width: 240px;
+    height: 240px;
 }
-.my-photo>img {
-  border: none solid #fff;
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  margin-top: 50px; 
-  margin-right: 280px;
+.personality-img{
+    border-radius: 50%;
+}
+.portfolio__header {
+    background: url(/1/img/paper.jpg);
+    border-radius: 8px 8px 0px 0px ;
+    height: 120px;
+    width: 420px;
+    box-shadow: 0 5 20px #501212;
+}
+.portfolio__main {
+    border-radius: 0px 0px 8px 8px ;
+    height: 340px;
+    width: 420px;
+    overflow: auto;
+}
+.portfolio__info{
+    background: #e8e8cb;
+    width: 270px;
+    height: 340px;
+    margin: auto;
+    float: right;
+}
+.portfolio__statistics {
+    background: #fff;
+    width: 150px;
+    height: 340px;
+    float: left;
+}
+.portfolio__followers{
+    background: #fff;
+    width: 100px; 
+    padding: 90px 0px 0px 50px; 
+}
+.portfolio__following {
+    background: #fff;
+    width: 100px;
+    padding: 40px 0px 0px 50px;
 }
 
-.section-info {
- 
-  border: 0px solid #08f22c;
-  width: 100%;
-  height: 75%;
-  display: inline;
+.portfolio__about{
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding: 20px 0px 0px 40px;
 }
-
-.section-statistics {
-   background-color: #fff;
-   width: 40%;
+.qty {
+    color: #5d5a5a;
+    font-size: 28px; 
 }
-.section-contacts {
-   background-color: #dbe2e2;
-   width: 60%;
+.topic-text {
+    color: #808080;
+    font-size: 22px; 
+    border-bottom: 20px;
 }
-
-/*  ul>li.ceo {
-  list-style-image: 
-url(/AndrewKazliak/1/img/suitcase1.png);
-  list-style-position: inside;
- 
-  
-}  */
+.topic-text:hover {
+    color: #808080;
+    font-size: 40px; 
+}
+.portfolio__item{
+    padding-bottom: 4px;
+    margin: 10px 20px 0px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+}
+.text {
+  margin-left: 10px;
+  border: none;
+}
+.text:hover {
+    color: #269337;
+}
