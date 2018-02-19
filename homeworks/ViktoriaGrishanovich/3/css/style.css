@@ -1,0 +1,35 @@
+body{ color: brown}
+.bg-secondary {
+    background-color: #bc9dee !important;}
+    a:hover {
+        color: #878a8d;}
+        a {
+            color: #1b1c1d;}
+
+            .avatar_type_circle{
+                border-radius: 50%;
+            }
+            .img-circle {
+                border-radius: 50%;
+            }
+            .bg-primary {
+                background-color: #dfe6ec !important;}
+
+                h3{ 
+                    color: rgb(95, 8, 117)!important;
+                    line-height: 4;
+                
+                }
+                .btn-default:hover {
+                    color: #333;
+                    background-color: #e6e6e6;
+                    border-color: #adadad;}
+                    .bg-info {
+                        background-color: #b9c1c4 !important;}
+                        .text-white {
+                            color: rgb(51, 50, 50) !important;}
+                            .bg-4 {
+                                background-color: #777474;
+                                color: #fff;}
+                           
+                               
