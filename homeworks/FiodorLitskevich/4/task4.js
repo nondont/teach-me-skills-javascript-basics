@@ -1,0 +1,11 @@
+var a;
+var b;
+var c;
+var q;
+var w;
+a = Number (prompt('введите 1 число' ));
+b =Number(prompt('введите 2 число' ));
+q=a+b;
+c=Number(prompt('введите 3 число' ));
+w=q-c;
+alert('ответ '+ a+' формула '+a+'+'+b+'-'+c  );
