@@ -1,0 +1,75 @@
+
+.background {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.background__portfolio-card {
+    height: 470px;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3); 
+}
+
+.background__portfolio-card_background-top {
+    background: url(../img/bg-top.jpg) no-repeat center top / cover;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.background__portfolio-card__info {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.background__portfolio-card__followers-info {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial';
+}
+.background__portfolio-card__followers-info__number {
+    font-size: 20px;
+    padding: 5px;
+    color: gray;
+}
+.background__portfolio-card__profile-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}
+.background__portfolio-card__profile-info {
+    width: 220px;
+    height: 340px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Arial';
+    background: rgb(240, 240, 240);
+    border-left: 1px solid lightgray;
+    border-bottom-right-radius: 10px;
+}
+.background__portfolio-card__profile-info__name {
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+.background__portfolio-card_profile-info__place {
+    margin-top: 0;
+}
+
+
+
